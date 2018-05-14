@@ -1,7 +1,7 @@
 library(ggplot2)
 library(GGally)
 
-attach(ds) #WNL_IN Gen Age Weight CCR ALB#
+#attach(ds) #WNL_IN Gen Age Weight CCR ALB#
 # Gen: F0M1 #
 
 ds$GenF0M1 <- factor(ds$Gen, levels=c(0,1), labels=c("F","M"))
